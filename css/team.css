@@ -61,7 +61,7 @@
 .social-link {
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
-    width: 100%;
+    width: 46%;
     /* top: 0%; */
     height: 0%;
     bottom: 0%;
@@ -101,8 +101,9 @@
         aspect-ratio: 4/1;
     }
 }
-@media screen and (max-width:280px){
-    .gallery-page-img-container{
+
+@media screen and (max-width:280px) {
+    .gallery-page-img-container {
         width: 13rem;
     }
 }

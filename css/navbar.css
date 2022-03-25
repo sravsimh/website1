@@ -281,6 +281,7 @@ footer>p {
     font-size: 1rem;
     color: #FFF;
     padding: 1rem;
+    font-style: italic;
 }
 
 #icn1 {
@@ -306,16 +307,17 @@ footer>p {
     transition: all 1s ease-in;
 }
 
-
-::-webkit-scrollbar{
-    width:0.6rem;
+::-webkit-scrollbar {
+    width: 0.6rem;
     background-color: rgba(0, 0, 0, 0.877);
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: rgba(107, 19, 223, 0.925);
-     border-radius: 1rem;
+    border-radius: 1rem;
 }
-::-webkit-scrollbar-corner{
+
+::-webkit-scrollbar-corner {
     background-color: #888;
 }
 
@@ -391,7 +393,7 @@ footer>p {
         padding: none;
     }
     footer {
-        aspect-ratio: 3/1;
+        aspect-ratio: 8/1;
     }
     .dropdown:hover .more {
         z-index: 1;
