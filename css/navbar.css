@@ -325,6 +325,10 @@ footer>p {
     width: inherit;
 }
 
+.main-nav-bar .nav-links a {
+    font-weight: 100;
+}
+
 @media screen and (max-width:747px) {
     .hamburger {
         display: block;
