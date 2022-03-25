@@ -21,11 +21,11 @@ body {
 
 .register {
     padding: 1rem 1.5rem;
-    background-color: transparent;
+    background-color: #fff;
     border: none;
     font-size: 1rem;
     margin: 2rem auto;
-    color: aliceblue;
+    color: black;
     cursor: pointer;
     border-radius: 3rem;
     transition: all 0.5s ease-in;
@@ -34,8 +34,8 @@ body {
 }
 
 .register:hover {
-    color: black;
-    /* box-shadow: 5px 5px 5px #888; */
+    color: white;
+    background: transparent;
 }
 
 
