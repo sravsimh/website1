@@ -395,7 +395,7 @@ body {
     }
     .register {
         z-index: 0;
-        background-color: transparent;
+        background-color: white;
     }
     .about {
         flex-direction: column-reverse;
