@@ -18,19 +18,19 @@ const heading = document.querySelector(".register-section-heading h3");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 // const question = document.querySelectorAll(".question");
-const ans =document.querySelectorAll(".ans");
+const ans = document.querySelectorAll(".ans");
 // console.log(question);
 var acc = document.getElementsByClassName("question");
 var i;
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    var ans = this.nextElementSibling;
-    if (ans.style.display === "block") {
-      ans.style.display = "none";
-    } else {
-      ans.style.display = "block";
-    }
-  });
+    acc[i].addEventListener("click", function() {
+        var ans = this.nextElementSibling;
+        if (ans.style.display === "block") {
+            ans.style.display = "none";
+        } else {
+            ans.style.display = "block";
+        }
+    });
 }
 dropdDown.addEventListener('click', () => {
     dropDownitems.classList.toggle("display")
@@ -80,7 +80,7 @@ const headingCarosoul1 = () => {
     //fontsize dit chei ekkada caarosou di???!!!
     heading.classList.add("fontsize");
     heading.classList.remove("fontsize1");
-    
+
     // register.classList.toggle("opacity");
 }
 const headingCarosoul2 = () => {
@@ -97,7 +97,7 @@ function Carosoul() {
     setInterval(headingCarosoul1, 10000)
 }
 Carosoul();
-setInterval(Carosoul ,10000)
+setInterval(Carosoul, 10000)
 
 let currentincrement = 0;
 nextBtn.addEventListener('click', () => {

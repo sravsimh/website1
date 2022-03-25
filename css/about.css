@@ -2,6 +2,10 @@ body {
     background-color: #FFF;
 }
 
+li {
+    list-style: disc;
+}
+
 .header {
     background-image: url("../images/Rectangle\ 20.png");
     background-position: center;
