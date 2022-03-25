@@ -238,7 +238,6 @@ body {
 }
 
 .img {
-    filter: grayscale(100%);
     cursor: pointer;
     margin: auto;
     transition: all 700ms ease-in-out;

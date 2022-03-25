@@ -102,8 +102,8 @@
     }
 }
 
-@media screen and (max-width:280px) {
+@media screen and (max-width:386PX) {
     .gallery-page-img-container {
-        width: 13rem;
+        width: 18rem;
     }
 }

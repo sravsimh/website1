@@ -4,6 +4,7 @@ body {
 
 li {
     list-style: disc;
+    font-weight: 600;
 }
 
 .header {
@@ -73,6 +74,7 @@ h1 {
     font-size: 1.3rem;
     text-align: left;
     padding: 5px 5px;
+    font-weight: 600;
 }
 
 
