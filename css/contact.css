@@ -107,6 +107,10 @@ h2 {
     font-size: 1.3rem;
 }
 
+.contact-details .ic-1 a:hover {
+    color: #551a8b;
+}
+
 @media screen and (max-width:747px) {
     .contact-details {
         flex-direction: column;

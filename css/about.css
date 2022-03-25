@@ -5,6 +5,7 @@ body {
 li {
     list-style: disc;
     font-weight: 600;
+    text-align: justify;
 }
 
 .header {
@@ -29,6 +30,7 @@ h2 {
     font-size: 2rem;
     font-family: 'Open Sans', sans-serif;
     color: blue;
+    text-align: justify;
 }
 
 h1 {
@@ -36,6 +38,7 @@ h1 {
     color: orangered;
     margin: 4rem 0 2rem;
     font-weight: 900;
+    text-align: justify;
 }
 
 .about-page {
@@ -60,6 +63,7 @@ h1 {
 .para {
     margin: 0 0 4rem;
     font-size: 1.3rem;
+    text-align: justify;
 }
 
 .header h2 {
@@ -75,6 +79,7 @@ h1 {
     text-align: left;
     padding: 5px 5px;
     font-weight: 600;
+    text-align: justify;
 }
 
 
