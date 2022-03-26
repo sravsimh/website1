@@ -51,6 +51,8 @@ a {
 
 .img {
     width: inherit;
+    margin-left: 19px;
+    margin-top: 8px;
 }
 
 
@@ -323,7 +325,7 @@ footer>p {
 
 .img1 {
     width: inherit;
-    margin: 10px 0 0 0 ;
+    margin: 10px 0 0 0;
 }
 
 .main-nav-bar .nav-links a {
