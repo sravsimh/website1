@@ -17,6 +17,7 @@ const register = document.querySelector(".register")
 const heading = document.querySelector(".register-section-heading h3");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
+const paraq = document.querySelector(".rp")
 // const question = document.querySelectorAll(".question");
 const ans = document.querySelectorAll(".ans");
 // console.log(question);
@@ -77,7 +78,7 @@ function timmer() {
 setInterval(timmer, 1000)
 const headingCarosoul1 = () => {
     heading.innerText = "Avishkar2K22";
-    //fontsize dit chei ekkada caarosou di???!!!
+    paraq.classList.remove("ftsize");
     heading.classList.add("fontsize");
     heading.classList.remove("fontsize1");
 
@@ -88,6 +89,7 @@ const headingCarosoul2 = () => {
     heading.classList.add("fontsize1");
     // heading.classList.toggle("fontsize1");
     // heading.style.fontSize = "24px";
+    paraq.classList.add("ftsize");
     register.classList.remove("opacity");
 }
 

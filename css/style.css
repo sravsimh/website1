@@ -83,7 +83,13 @@ body {
 .next {
     right: 0%;
 }
-
+.rp{
+    margin: 0.3rem  0 0 0 ;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    /* transition: font-size 700ms ease-in; */
+}
 .timmer {
     margin: 6rem 0rem 0rem;
     background-color: #FFF;
@@ -301,7 +307,9 @@ body {
 .active {
     background-color: blue!important;
 }
-
+.ftsize{
+    font-size: 0rem;
+}
 .testimonial {
     /* width: 27%; */
     background-color: #351736;
@@ -325,6 +333,7 @@ body {
     aspect-ratio: 3;
     margin: 1rem 1rem;
     color: #FFF8E8;
+    padding:.4rem
 }
 
 .testimonial__img {
@@ -336,8 +345,8 @@ body {
     border-radius: 50%;
 }
 
-.fuck {
-    font-size: 1.8rem;
+.fuk {
+    font-size: 1.5rem;
 }
 
 .fontsize {
