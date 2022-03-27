@@ -1,187 +1,26 @@
-body {
-    background-color: #FFF8E8;
-}
-
-.header h3 {
-    font-family: 'Arimo', sans-serif;
-    color: white;
-}
-
-.register-section {
-    background: url("https://s3.amazonaws.com/rm3.photos.prod.readmedia.com/students/5178510/cover-original/maxresdefault.jpg?1565807085");
-    background-position: center;
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    aspect-ratio: 2/1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
-}
-
-.register {
-    padding: 1rem 1.5rem;
-    background-color: #fff;
-    border: none;
-    font-size: 1rem;
-    margin: 2rem auto;
-    color: black;
-    cursor: pointer;
-    border-radius: 3rem;
-    transition: all 0.5s ease-in;
-    /* position: relative; */
-    border: 2px solid var(--transparent);
-}
-
-.register:hover {
-    color: white;
-    background: transparent;
-}
-
-
-/* .topdown:hover .more{
-    transform: translateY(0px);
-    gap: 2rem;
-    z-index: -1;
-} */
-
-
-/* .register-section-heading h3 {
-   
-} */
-
-
-/* .register-section{
-    z-index:-1
-} */
-
-.dropdown:hover .main-contemt {
-    position: relative;
-    z-index: -1;
-}
-
-.more:hover .next {
-    z-index: -1;
-}
-
-.prev,
-.next {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.2);
-    /* backdrop-filter: blur(6px); */
-    /* opacity: 0.2; */
-    color: var(--main-color);
-    padding: 1.5rem;
-    cursor: pointer;
-    top: 30%;
-}
-
-.prev {
-    left: 0%;
-}
-
-.next {
-    right: 0%;
-}
-
-.rp {
-    margin: 0.3rem 0 0 0;
-    color: white;
-    text-align: center;
-    font-size: 1.6rem;
-    /* transition: font-size 700ms ease-in; */
-}
-
-.timmer {
-    margin: 6rem 0rem 0rem;
-    background-color: #FFF;
-}
-
-.timer {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin: 3rem auto;
-    /* box-shadow: var(--boxshadow); */
-    width: 80%;
-    gap: 1rem;
-    padding: 0 0 3rem;
-}
-
-.background {
-    background-color: #FFF;
-    min-width: 20%;
-    aspect-ratio: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border:2px solid blue; */
-}
-
-.background h3 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3rem;
-    /* line-height: 175px; */
-    animation: timmer 1s linear infinite alternate;
-}
-
-@keyframes timmer {
-    from {
-        transform: translateY(1rem);
-    }
-    to {
-        transform: translateY(0rem);
-    }
-}
-
-.background p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.3rem;
-    /* line-height: 175px; */
-}
-
-.avk-2k22-logo {
-    width: 30rem;
-    padding: 3rem 0;
-}
-
-.avk-2k22-logo img {
-    max-width: 100%;
-}
-
-.backgroundc {
-    color: #000;
-}
-
-.about {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    /* box-shadow: var(--boxshadow); */
-    /* margin: 5rem 0rem; */
-    gap: 3rem;
-    /* background-color: #000; */
-    /* margin-left: 6rem; */
-}
-
-.info {
-    width: 50%;
-    margin: 0rem 0 6rem;
-    margin-left: 5rem;
-}
-
-.info h3 {
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2? family=Montserrat:wght@100&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="shortcut icon" href="avishkarlogo.png" type="image/x-icon"><link rel="stylesheet" href="css/navbar.css"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/utilities.css"><title>Avishkar2K22</title></head><body><nav class="main-nav-bar"><div class="nav-logo"><img src="./images/avishkar2021finallogo.png" style="margin-left: 19px;" alt="logo" class="img1" /></div><ul class="nav-links"><li class="nav-li"><a href="./index.html" class="nav-anchor">HOME</a></li><li class="nav-li"><a href="./about.html" class="nav-anchor">ABOUT</a></li><li class="nav-li"><a href="./gallery.html" class="nav-anchor">GALLERY</a></li><li class="dropdown nav-li"><a class="topdown nav-anchor" style="margin-right: 2rem;">MORE<span class="topupspan"><i class="fa " id="qna">&#xf13a;
+</i></span></a><ul class="more" id="More"><li><a href="./sample.html" class="nav-dropdown">SAMPLE</a></li><li class="download-dropdown nav-li"><a class="nav-dropdown" id="nav-drop-list"><span class="topleftspan"><i class="fa " id="qna">&#xf13a;
+</i></span>PROJECT TITTLES</a><ul class="download"><li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CSE</a></li><li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>ECE</a></li><li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>EEE</a></li><li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>MECH</a></li><li><a href="../space-tourism-website-fig.pdf" class="nav-dropdown download-links" download>CIVIL</a></li></ul></li><li><a href="./faqs.html" class="nav-dropdown">FAQ'S</a></li>
+ <li><a href="#" class="nav-dropdown">RESOURCES</a></li></ul></li><li class="nav-li"><a href="team.html" class="nav-anchor">TEAM</a></li><li class="nav-li"><a href="./Contact.html" class="nav-anchor">CONTACT US</a></li></ul><div class="hamburger"><div class="burger l1"></div><div class="burger l2"></div><div class="burger l3"></div></div></nav><main class="main-contemt"><section class="register-section" style="background-image: url('bg.jpg')"><div class="register-section-heading"><h3 class="fontsize">Avishkar2K22</h3><p class="rp">Engineering Inovatations</p><a class="prev" ">&#10094;</a>
+ <a class="next " ">&#10095;</a>
+ </div><button class="register">Register</button></section><section class="timmer"><h3 class="mainheading backgroundc section-title margin">THE EVENT STARTS IN:</h3><section class="timer"><div class="background days"><h3 style="    font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+">00</h3>
+ <p>days</p></div><div class="background hours"><h3 style="    font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+">00</h3>
+ <p>hrs</p></div><div class="background minutes"><h3 style="    font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+">00</h3>
+ <p>min</p></div><div class="background seconds"><h3 style="    font-family: 'Open Sans', sans-serif;
+ font-weight: 600;
+">00</h3>
+ <p>sec</p></div></section></section><h3 class="mainheading margin">AVISHKAR</h3><section class="about"><div class="avk-2k22-logo"><img src="./images/image 7.png" alt=""></div><div class="info"><p class="fuk">Avishkar has been one of the prestigious events conducted exclusively for the first-year students of VBIT. Avishkar is a Technical Paper Presentation competition under IEEE - VBIT SB,
+it honored the eminent “Darrel Chong Gold Student Activity Award” in the year 2011 for organizing the event consequently for five years. It fosters the students to gain knowledge over multifarious emerging technologies. Avishkar endows students with the eloquence of language,
+allowing them to augment their communicative and collaborative skills.</p></p></div></section><section class="gallery "><h3 class=" mainheading section-title heading-home">GALLERY </h3><div class="img-container"><img src="team img/gallery-1.jpg" alt="" class="img"><img src="team img/gallery-2.jpg" alt="" class="img"><img src="team img/gallery-6.jpg" alt="" class="img"></div></section><section class="container_testimonials" style="margin-bottom:11px;"><h3 class=" mainheading gallery-heading section-title margin">TESTIMONIALS </h3><section class="container" ">
+ <div class="testimonial "><p class="testimonial__text mb1 ">At first,
+it may be intimidating to see all of the available courses. Pick a track that interests you and work through it at your own pace. </p><div class="testimonial__details "><div class="testimonial__img "><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80 " alt="Timmy Dicki " class="testimg1 " /></div><div class="testimonial__info "><h4 class="testimonial__name1 ">Timmy Dicki</h4><h5 class="testimonial__job1 ">Railroad Engineer</h5></div></div></div><div class="testimonial "><p class="testimonial__text mb2 ">At first,
+it may be intimidating to see all of the available courses. Pick a track that interests you and work through it at your own pace. </p><div class="testimonial__details "><div class="testimonial__img "><img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80 " alt="Timmy Dicki " class="testimg2 " /></div><div class="testimonial__info "><h4 class="testimonial__name2 ">Timmy Dicki</h4><h5 class="testimonial__job2 ">Railroad Engineer</h5></div></div></div><div class="testimonial "><p class="testimonial__text mb3 ">I believe it would be very useful to teach cognitive neuroscience and psychology students all some coding skills. </p><div class="testimonial__details "><div class="testimonial__img "><img src="https://images.unsplash.com/photo-1583664426440-daef00e4ad6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80 " alt="Valerie King " class="testimg3 " /></div><div class="testimonial__info "><h4 class="testimonial__name3 ">Valerie King</h4><h5 class="testimonial__job3 ">Customer Service Representative</h5></div></div></div></section></section><!-- <ul class="dots "><li class="active "></li><li></li><li></li></ul>--></section><footer><p><i>Designed and Developed by Web Designing Team</i>| <i>Avishkar2K22</i><span id="year "></span></p><div class="icons "><a href="https://www.instagram.com/avishkar2k22/ " target="_blank " class="icon "><i class="fa fa-instagram " style=" color: #fff; font-size: 1.4rem; margin: 0 1rem 2.5rem 0 ; " id="icn1 "></i></a><a href="https://www.facebook.com/avishkar2k22 " target="blank " class="icon "><i class="fa fa-facebook " style=" color: #fff; font-size: 1.4rem; margin: 0 1rem 2.5rem 0 ; " id="icn1 "></i></a></div></footer></main><script src="./main.js "></script></body></html>3 {
     margin: 6rem 0 3rem;
     text-align: left;
     color: #000;
