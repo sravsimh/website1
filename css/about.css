@@ -2,10 +2,8 @@ body {
     background-color: #FFF;
 }
 
-li {
+* {
     list-style: disc;
-    font-weight: 600;
-    text-align: justify;
 }
 
 .header {
@@ -32,9 +30,9 @@ h2 {
     color: blue;
     text-align: justify;
 }
-li{
-    font-family: 'Open Sans', sans-serif;
 
+li {
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
