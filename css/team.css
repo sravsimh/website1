@@ -51,6 +51,7 @@
 
 .gallery-page-img {
     width: inherit;
+    height: 300px;
 }
 
 .gallery-page-img:hover {
