@@ -41,6 +41,13 @@
     aspect-ratio: 2/1;
 }
 
+@media screen and (max-width:425px) {
+    .sample-vedio {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
 @media screen and (max-width:1129px) {
     .iframe {
         width: 90vw;
@@ -53,6 +60,6 @@
         }
         .heading-main-page {
             aspect-ratio: 4/1;
-        }   
+        }
     }
 }
