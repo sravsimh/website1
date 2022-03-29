@@ -24,10 +24,17 @@
 
 .question {
     cursor: pointer;
+    font-size: 22px;
+}
+
+.question:hover {
+    color: green;
 }
 
 .ans {
     display: none;
+    font-size: 22px;
+    margin-left: 25px;
 }
 
 
