@@ -305,7 +305,7 @@
  }
  
  .active {
-     background-color: blue!important;
+     color: lime;
  }
  
  .ftsize {

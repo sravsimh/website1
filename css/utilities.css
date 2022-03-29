@@ -22,6 +22,10 @@ p {
     /* margin-left: 50px; */
 }
 
+.active {
+    color: lime;
+}
+
 
 /* .mainheading::before{
     content:"";
