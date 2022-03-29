@@ -97,6 +97,10 @@ a {
     opacity: 1;
 }
 
+.nav-anchor .active {
+    color: orangered;
+}
+
 .nav-anchor:hover {
     color: orange;
     /* padding: 0.5rem; */

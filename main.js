@@ -18,7 +18,7 @@ const heading = document.querySelector(".register-section-heading h3");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 const paraq = document.querySelector(".rp")
-// const question = document.querySelectorAll(".question");
+    // const question = document.querySelectorAll(".question");
 const ans = document.querySelectorAll(".ans");
 // console.log(question);
 var acc = document.getElementsByClassName("question");
@@ -77,7 +77,7 @@ function timmer() {
 }
 setInterval(timmer, 1000)
 const headingCarosoul1 = () => {
-    heading.innerText = "Avishkar2K22";
+    heading.innerText = "AVISHKAR2K22";
     paraq.classList.remove("ftsize");
     heading.classList.add("fontsize");
     heading.classList.remove("fontsize1");

@@ -269,7 +269,7 @@
      /* max-width: 80%; */
      overflow-x: hidden;
      /* display: flex; */
-     background-color: rgb(49 41 62);
+     background-color: rgb(105 68 191);
      ;
      position: relative;
      /* margin: auto; */
@@ -314,7 +314,7 @@
  
  .testimonial {
      /* width: 27%; */
-     background-color: #351736;
+     background-color: #000000;
      border-radius: .5rem;
  }
  
