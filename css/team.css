@@ -93,7 +93,19 @@
     padding: 0 0 0.5rem 0;
 }
 
-@media screen and (max-width:747px) {
+@media screen and (min-width:425px) and (max-width:800px) {
+    .gallery-page-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: fit-content;
+        /* justify-items: center; */
+    }
+    .heading-main-page {
+        aspect-ratio: 4/1;
+    }
+}
+
+@media screen and(max-width:425px) {
     .gallery-page-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
