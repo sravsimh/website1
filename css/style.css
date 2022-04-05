@@ -398,10 +398,11 @@
          color: var(--main-color);
          text-align: center;
          width: 80%;
-         margin: auto;
+         /* margin: auto; */
      }
      .fontsize1 {
          font-size: 1.6rem;
+         margin: auto;
      }
      .register {
          z-index: 0;
