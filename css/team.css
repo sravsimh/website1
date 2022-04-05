@@ -134,9 +134,6 @@
     .heading-main-page {
         aspect-ratio: 4/1;
     }
-}
-
-@media screen and (max-width:321px) {
     .gallery-page-img-container:hover .social-link {
         /* transform:scaleZ(1.5); */
         opacity: 1;
