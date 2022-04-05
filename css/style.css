@@ -91,7 +91,7 @@
  }
  
  .timmer {
-     margin: 6rem 0rem 0rem;
+     margin: 4rem 0rem 0rem;
      background-color: #FFF;
  }
  
@@ -99,7 +99,7 @@
      display: flex;
      gap: 1rem;
      justify-content: center;
-     margin: 3rem auto;
+     margin: 2rem auto;
      /* box-shadow: var(--boxshadow); */
      width: 80%;
      gap: 1rem;
@@ -451,7 +451,7 @@
      .img-container {
          grid-template-columns: none;
          margin: 0;
-         width: 100%s;
+         width: 100%;
          gap: 4rem;
          justify-content: center;
          align-items: center;
