@@ -508,3 +508,12 @@
          grid-template-columns: repeat(1, 1fr);
      }
  }
+ 
+ @media screen and (max-width:426px) {
+     .rp {
+         font-size: 1rem
+     }
+     .ftsize {
+         font-size: 0rem;
+     }
+ }
