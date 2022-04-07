@@ -87,7 +87,7 @@
     /* transform:scaleZ(1.5); */
     opacity: 1;
     width: 90%;
-    height: 35%;
+    height: 18%;
     bottom: 2%;
     /* left:0%; */
     /* bottom:0%; */
@@ -98,7 +98,7 @@
     padding: 0 0 0.5rem 0;
 }
 
-@media screen and (min-width:769px) and (max-width:991px) {
+@media screen and (min-width:768px) and (max-width:991px) {
     .gallery-page-container {
         display: grid;
         /* grid-template-columns: repeat(auto-fit, minmax(33%, 16rem)); */

@@ -42,6 +42,10 @@ a {
     z-index: 9999999;
 }
 
+.main-nav-bar .nav-links li {
+    list-style: none;
+}
+
 
 /*styling logo*/
 
@@ -230,11 +234,11 @@ a {
 }
 
 .transformBurger {
-    transform: rotate(42deg) translate(8px, 7px);
+    transform: rotate(45deg) translate(8px, 7px);
 }
 
 .transformBurger2 {
-    transform: rotate(132deg) translate(3px, -4px);
+    transform: rotate(135deg) translate(3px, -4px);
 }
 
 .displayNone {
@@ -329,7 +333,7 @@ footer>p {
 
 .img1 {
     width: inherit;
-    margin: 10px 0 0 0;
+    margin: 3px 0 0 0;
 }
 
 .main-nav-bar .nav-links a {
