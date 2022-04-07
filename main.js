@@ -139,8 +139,8 @@ const testjob3 = document.querySelector(".testimonial__job3");
 
 function changetest1() {
     testcontent1.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg1.src = "https://source.unsplash.com/1600x1600/?water";
-    testname1.innerText = "ABHIJT";
+    // testimg1.src = "https://source.unsplash.com/1600x1600/?water";
+    // testname1.innerText = "ABHIJT";
     active.forEach(element => {
         element.classList.toggle("active");
     });
@@ -148,8 +148,8 @@ function changetest1() {
 
 function changetest2() {
     testcontent2.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg2.src = "https://source.unsplash.com/1600x1600/?photo";
-    testname2.innerText = "ABHIJT";
+    // testimg2.src = "https://source.unsplash.com/1600x1600/?photo";
+    // testname2.innerText = "ABHIJT";
     active.forEach(element => {
         element.classList.replace("active", "notactive");
     });
@@ -157,8 +157,8 @@ function changetest2() {
 
 function changetest3() {
     testcontent3.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg3.src = "https://source.unsplash.com/1600x1600/?profile";
-    testname3.innerText = "ABHIJT";
+    // testimg3.src = "https://source.unsplash.com/1600x1600/?profile";
+    // testname3.innerText = "ABHIJT";
     active.forEach(element => {
         element.classList.toggle("active");
     });
@@ -166,8 +166,8 @@ function changetest3() {
 
 function changetest11() {
     testcontent1.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg1.src = "https://source.unsplash.com/1600x1600/?water";
-    testname1.innerText = "rayarao";
+    // testimg1.src = "https://source.unsplash.com/1600x1600/?water";
+    // testname1.innerText = "rayarao";
     active.forEach(element => {
         element.classList.toggle("active");
     });
@@ -175,8 +175,8 @@ function changetest11() {
 
 function changetest12() {
     testcontent2.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg2.src = "https://source.unsplash.com/1600x1600/?wildlife";
-    testname2.innerText = "rayarao";
+    // testimg2.src = "https://source.unsplash.com/1600x1600/?wildlife";
+    // testname2.innerText = "rayarao";
     active.forEach(element => {
         element.classList.toggle("active");
     });
@@ -184,8 +184,8 @@ function changetest12() {
 
 function changetest13() {
     testcontent3.innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum";
-    testimg3.src = "https://source.unsplash.com/1600x1600/?sky";
-    testname3.innerText = "rayarao";
+    // testimg3.src = "https://source.unsplash.com/1600x1600/?sky";
+    // testname3.innerText = "rayarao";
     active.forEach(element => {
         element.classList.toggle("active");
     });

@@ -366,6 +366,14 @@
      margin-left: 5rem;
  }
  
+ .avk {
+    margin-left: 0px;
+ }
+ 
+ .testimonial__details .testimonial__info h4 {
+     padding: 20px;
+ }
+ 
  @media screen and (max-width:560px) {
      .heading-home h3 {
          margin-left: 1rem;
@@ -394,7 +402,7 @@
          justify-content: center;
      }
      .fontsize {
-         font-size: 2rem;
+         font-size: 4rem;
          color: var(--main-color);
          text-align: center;
          width: 80%;
@@ -510,6 +518,12 @@
      }
  }
  
+ @media screen and (max-width:768px) {
+     .gallery .avk {
+         padding: 2rem 0rem 2rem;
+     }
+ }
+ 
  @media screen and (max-width:426px) {
      .rp {
          font-size: 1rem
@@ -517,10 +531,7 @@
      .ftsize {
          font-size: 0rem;
      }
- }
- 
- @media screen and (max-width:768px) and (min-width:426px) {
      .fontsize {
-         margin: auto;
+         font-size: 2rem;
      }
  }
