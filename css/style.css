@@ -366,6 +366,10 @@
      margin-left: 5rem;
  }
  
+ .avk {
+     margin-left: 0px;
+ }
+ 
  @media screen and (max-width:560px) {
      .heading-home h3 {
          margin-left: 1rem;
